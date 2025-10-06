@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMCGM Landmark Christ Gospel Misson</title>
+    <meta name="description" content="Welcome to Landmark Christ Gospel Mission (LMCGM), a cathedral of holiness and prayer. Join us for worship, community, and spiritual growth.">
+    <link rel="shortcut icon" href="./images/LandMark Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="./images/LandMark Logo.png" alt="Landmark church Logo" class="logo-img">
+                <span class="logo-text">LMCGM</span>
+            </div>
+            <nav class="nav-desktop">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About us</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#sermons" class="nav-link">Sermons</a>
+                <a href="#giving" class="nav-link">Online Giving</a>
+            </nav>
+            <button class="mobile-menu-button" id="mobile-menu-button" aria-label="Open menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+        <nav class="nav-mobile" id="mobile-menu">
+            <a href="#home" class="nav-link-mobile">Home</a>
+            <a href="#about" class="nav-link-mobile">About us</a>
+            <a href="#events" class="nav-link-mobile">Events</a>
+            <a href="#sermons" class="nav-link-mobile">Sermons</a>
+            <a href="#giving" class="nav-link-mobile">Online Giving</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-slider">
+                <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true" autoplay-delay="2500" autoplay-disable-on-interaction="false" loop="true" >
+                    <swiper-slide> 
+                        <img src="./images/LCY_228.jpg" alt="Worship service with hands raised" class="hero-slide active-slide">
+                    </swiper-slide>
+                    <swiper-slide> 
+                        <img src="./images/youth choir.jpg" alt="youth choir" class="hero-slide active-slide">
+                    </swiper-slide>
+                    <swiper-slide> 
+                        <img src="./images/LCY_192.jpg" alt="children choir" class="hero-slide active-slide">
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+            <div class="hero-content">
+                <h2 class="hero-subtitle">WELCOME TO</h2>
+                <h1 class="hero-title">
+                    <span>LANDMARK </span>
+                    <span class="text-accent">CHRIST GOSPEL MISSION</span>
+                </h1>
+                <p class="hero-tagline">Cathedral of Holiness and Prayer</p>
+                
+                <a href="#contact" class="btn btn-accent">JOIN US</a>
+            </div>
+        </section>
+
+        <section id="schedule" class="section bg-light">
+            <div class="container">
+                <div class="grid-3">
+                    <div class="schedule-card">
+                        <div class="schedule-card-img">
+                            <img src="./images/LCY_228.jpg" alt="Sunday Worship">
+                            <h3>SUNDAY</h3>
+                        </div>
+                        <div class="schedule-card-info">
+                            <div class="decorator-line"></div>
+                            <h4>COMBINE SUNDAY SERVICE</h4>
+                            <p>6:30AM-1:00PM</p>
+                        </div>
+                        <div class="schedule-card-info">
+                            <div class="decorator-line"></div>
+                            <h4>SUNDAY SERVICE</h4>
+                            <p>6:30AM-11:00AM</p>
+                        </div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-card-img">
+                            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MTk0MjY3NDF8&ixlib=rb-4.0.3&q=80&w=1080" alt="Digging Deep">
+                            <h3>TUESDAY</h3>
+                        </div>
+                        <div class="schedule-card-info">
+                             <div class="decorator-line"></div>
+                            <h4>BIBLE STUDY</h4>
+                            <p>6:00PM-8:00PM</p>
+                        </div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-card-img">
+                            <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MTk0MjY3NzB8&ixlib=rb-4.0.3&q=80&w=1080" alt="Faith Clinic">
+                            <h3>FRIDAY</h3>
+                        </div>
+                        <div class="schedule-card-info">
+                             <div class="decorator-line"></div>
+                            <h4>PRAYER MEETING</h4>
+                            <p>06:00PM-07:30PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="welcome" class="section">
+            <div class="container">
+                <div class="welcome-container">
+                    <div class="decorator-shape-left"></div>
+                    <div class="welcome-content">
+                        <div class="tag">WELCOME TO LANDMARK CHRIST GOSPEL MISSION</div>
+                        <p>On behalf of the General Overseer, Landmark Christ Gospel Mission (LMCGM), Pastor S. M. Adeoluwa, I welcome you in the name of our Lord Jesus Christ to the website of Landmark Christ Gospel Mission, Abule-Egba, Lagos. My prayer is that you would be divinely visited as you visit our site in Jesus name.</p>
+                        <p>We would be highly honoured to have you worship with us if and when you are in Lagos. As we work to spread God's kingdom across Lagos, the Nigeria, and the whole world, I can tell you that the Lord has a position for you in our midst if you are persuaded that He would like you to join us permanently. The word of the bible (Matt. 9:37) about the fewness of labourers in spite of the vastness of the harvest is still as true now as it was then.</p>
+                        <p>I invite you to join us at Strong Tower as we lift up the name of Jesus Christ. God bless you.</p>
+                        <div class="pastor-signature">
+                            <p>Shalom.</p>
+                            <p class="name">Pastor S. M. Adeoluwa</p>
+                            <p class="title">(General Overseer)</p>
+                        </div>
+                    </div>
+                    <div class="decorator-shape-right"></div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- <section id="devotional" class="section text-center">
+            <div class="container narrow">
+                <h2 class="section-subtitle-tracked">DEVOTIONAL</h2>
+                <div class="section-title-underline-sm"></div>
+                <p class="date">THURSDAY August 10, 2023</p>
+                <h3 class="devotional-title">COURAGE TO CROSS OVER</h3>
+                <p>The Battle of Waterloo was fought on 18th June 1815 between Napoleon's French Army and a coalition led by the Duke of Wellington and Marshal Blücher. It was a decisive battle of its age, which concluded a war that had raged for about 23 years. It was at Waterloo in Belgium, where Napoleon Bonaparte suffered defeat at the hands of...</p>
+                <a href="#" class="btn btn-primary mt-2">READ MORE</a>
+            </div>
+        </section> -->
+
+        <section id="about">
+            <div class="page-banner" style="background-image: url('https://images.unsplash.com/photo-1543369339-a7e04f463235?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MTk0MjY3MTF8&ixlib=rb-4.0.3&q=80&w=1080');">
+                <div class="page-banner-overlay"></div>
+                <h2>ABOUT OUR CHURCH</h2>
+            </div>
+            <div class="section bg-light">
+                <div class="container grid-2 items-center">
+                    <div class="about-welcome-box">
+                        <h3>WELCOME TO LANDMARK CHRIST GOSPEL MISSION</h3>
+                        <p>THE CHURCH WAS FOUNDED IN 1992.</p>
+                    </div>
+                    <div>
+                        <h4 class="sub-heading">OUR VISION</h4>
+                        <ol class="styled-list">
+                            <li>To Make Heaven.</li>
+                            <li>To Take As Many People With Us.</li>
+                            <li>To Have A Member Of LCGM In Every Family Of All Nations</li>
+                        </ol>
+                        <h4 class="sub-heading">OUR MISSION</h4>
+                        <ol class="styled-list">
+                            <li>Holiness will be our lifestyle.</li>
+                            <li>The word of God will be our standard.</li>
+                            <li>Prayer will be the key.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="container grid-2">
+                    <div>
+                        <h3 class="section-title text-center">OUR VALUES</h3>
+                        <div class="grid-3 text-center">
+                            <div class="value-item">
+                                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <h4>QUALITY WORSHIP</h4>
+                                <p>The art of worship is particularly an integral part of our meetings...</p>
+                            </div>
+                            <div class="value-item">
+                                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.539-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                <h4>HOSPITALITY</h4>
+                                <p>We extend Gods love to all. Following up of new converts...</p>
+                            </div>
+                            <div class="value-item">
+                                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.672l1.318-1.354a4.5 4.5 0 116.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg>
+                                <h4>EVANGELISM</h4>
+                                <p>We Engage in the Great commission; preaching the Gospel...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aim-box">
+                        <h3 class="section-title text-center">OUR AIM</h3>
+                        <p>To Preach Christ Alongside Being Impactful To The Local Communities Around Us</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pastor-section">
+                <div class="container">
+                    <div class="text-center">
+                        <div class="tag-alt">OUR PASTOR</div>
+                    </div>
+                    <div class="pastor-content">
+                        <div class="pastor-text">
+                            <p>As the shepherd of LANDMARK CHRIST GOSPEL MISSION, LAGOS, it is my utmost joy and privilege to guide and serve our congregation. I am deeply committed to creating an environment where people can grow in their faith, find solace in times of need, and develop a strong relationship with God.</p>
+                            <p>With a deep commitment to faith, I guide and serve towards building a strong community of believers, and I offer personal support to foster belonging and growth.</p>
+                            <p class="pastor-name">Pastor Samuel Adeoluwa</p>
+                        </div>
+                        <div class="pastor-img-container">
+                            <img src="./images/pastor LYC.png" alt="Pastor Richard Omoyele" class="pastor-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ministries" class="section bg-light text-center">
+            <div class="container">
+                <h2 class="section-title">OUR MINISTRIES</h2>
+                <div class="section-title-underline"></div>
+                <div class="grid-4">
+                    <div class="ministry-card">
+                        <img src="./images/youth choir.jpg" alt="Men's Ministry">
+                        <h3>MEN</h3>
+                    </div>
+                     <div class="ministry-card">
+                        <img src="./images/LCY_192.jpg" alt="Women's Ministry">
+                        <h3>WOMEN</h3>
+                    </div>
+                     <div class="ministry-card">
+                        <img src="./images/children choir.jpg" alt="Kids Ministry">
+                        <h3>KIDS</h3>
+                    </div>
+                     <div class="ministry-card">
+                        <img src="./images/LCY_228.jpg" alt="Teens and Youth Ministry">
+                        <h3>TEENS AND YOUTH</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events">
+            <div class="page-banner" style="background-image: url('https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MTk0MjczODh8&ixlib=rb-4.0.3&q=80&w=1080');">
+                 <div class="page-banner-overlay-dark"></div>
+                 <h2>EVENTS</h2>
+            </div>
+            
+            <div class="section">
+                <div class="container events-container">
+                    <div class="upcoming-events">
+                        <div class="text-center mb-12">
+                            <h3 class="section-title">UPCOMING EVENTS</h3>
+                            <div class="section-divider"></div>
+                        </div>
+                        <div class="events-list">
+                            <div class="event-item" data-title="7 Hours Praise" data-date="DEC 14" data-time="10:00 AM - 5:00 PM">
+                                <div class="event-date-box">
+                                    <p class="event-day">14</p>
+                                    <p class="event-month">DEC</p>
+                                </div>
+                                <div class="event-details">
+                                    <h3 class="event-title">7 Hours Praise</h3>
+                                    <p class="event-time">10:00 AM - 5:00 PM</p>
+                                    <p class="event-location">
+                                        <i class="fa-solid fa-location-dot"></i>Abule-Egba, Lagos
+                                    </p>
+                                    <p class="event-description">Join us for a joyful evening of carols, scripture readings, and special music as we celebrate the birth of Jesus Christ.</p>
+                                </div>
+                                <!-- <div class="event-share">
+                                    <a href="#" class="share-facebook" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg></a>
+                                    <a href="#" class="share-twitter" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg></a>
+                                    <a href="https://www.instagram.com/rccgstrongtower/" target="_blank" rel="noopener noreferrer" aria-label="View on Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664 4.771 4.919 4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg></a>
+                                </div> -->
+                            </div>
+                            <div class="event-item" data-title="Christmas Carol Service" data-date="DEC 25" data-time="9:00 AM - 1:00 PM">
+                                <div class="event-date-box">
+                                    <p class="event-day">25</p>
+                                    <p class="event-month">DEC</p>
+                                </div>
+                                <div class="event-details">
+                                    <h3 class="event-title">Christmas Carol Service and Love Feast</h3>
+                                    <p class="event-time">9:00 AM - 1:00 PM</p>
+                                    <p class="event-location">
+                                        <i class="fa-solid fa-location-dot"></i>Abule-Egba, Lagos
+                                    </p>
+                                    <p class="event-description">Join us for a joyful evening of carols, scripture readings, and special music as we celebrate the birth of Jesus Christ.</p>
+                                </div>
+                                <!-- <div class="event-share">
+                                    <a href="#" class="share-facebook" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg></a>
+                                    <a href="#" class="share-twitter" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg></a>
+                                    <a href="https://www.instagram.com/rccgstrongtower/" target="_blank" rel="noopener noreferrer" aria-label="View on Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919 4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg></a>
+                                </div> -->
+                            </div>
+                            <div class="event-item" data-title="New Year Eve" data-date="DEC 31" data-time="10:00 PM">
+                                <div class="event-date-box">
+                                    <p class="event-day">31</p>
+                                    <p class="event-month">DEC</p>
+                                </div>
+                                <div class="event-details">
+                                    <h3 class="event-title">New Year Eve</h3>
+                                    <p class="event-time">10:00 PM</p>
+                                    <p class="event-location">
+                                        <i class="fa-solid fa-location-dot"></i>Abule-Egba, Lagos
+                                    </p>
+                                    <p class="event-description">Join us for a special service as we ring in the New Year with praise and worship.</p>
+                                </div>
+                                <!-- <div class="event-share">
+                                    <a href="#" class="share-facebook" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg></a>
+                                    <a href="#" class="share-twitter" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg></a>
+                                    <a href="https://www.instagram.com/rccgstrongtower/" target="_blank" rel="noopener noreferrer" aria-label="View on Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919 4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="community-box">
+                         <div class="tag-alt">COMMUNITY SERVICES</div>
+                         <h3>Together we can make an impact</h3>
+                         <p>Church isn't an event to attend - it's a place to belong. We need each other to get through this journey, because we can do more, be more, and endure more when we're walking through life together.</p>
+                         <p>We are currently working on helping the helpless, prison visits, hospitals and hospitality, fund raising and other support activities like raising the awareness of the plight of the vulnerables, helping in time of crisis...</p>
+                         <a href="#contact" class="btn btn-accent">GET INVOLVED</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="sermons" class="section bg-light text-center">
+            <div class="container">
+                <h2 class="section-title">SERMON</h2>
+                <div class="section-title-underline"></div>
+                <div class="grid-3">
+                    <div class="sermon-card">
+                        <div class="sermon-thumbnail">
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/ueaYg8cuQiY?si=5G0-wMgUSl5FmYXf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="sermon-info" style="--bg-color: #3a2c70; --line-color: #c4f043;">
+                            <h3>20 MINUTES POWERFUL PRAYER CHARGE</h3>
+                        </div>
+                    </div>
+                    <div class="sermon-card">
+                        <div class="sermon-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/koj1BlywL1U?si=Axv8TGyC0DWJ2zOz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="sermon-info" style="--bg-color: #3a2c70; --line-color: #c4f043;">
+                            <h3>SAINTS CAMP 2025 || DAY 2 MORNING SESSION</h3>
+                        </div>
+                    </div>
+                   
+                     <div class="sermon-card">
+                        <div class="sermon-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/S195YTENtE8?si=sGKVy88qkByQ4pIT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="sermon-info" style="--bg-color: #0d9488; --line-color: #fb923c;">
+                            <h3>SAINTS CAMP 2025 || DAY 4 GRAND FINALE</h3>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.youtube.com/@LandmarkerchurchHQLagos/videos" class="btn btn-primary mt-3">MORE</a>
+            </div>
+        </section>
+
+        <section id="giving" class="giving section-padding-bg">
+            <div class="container giving-grid">
+                <div class="giving-card">
+                    <h3 class="giving-title">Giving</h3>
+                    <p>Give, and it will be given to you. Good measure, pressed down, shaken together and running over, will be poured into your lap. For with the measure you use, it will be measured back to you</p>
+                    <p class="giving-scripture">Luke 6:38 (NKJV)</p>
+                    <button id="give-btn" class="btn btn-primary">GIVE</button>
+                </div>
+                <div class="giving-image">
+                    <img src="./images/cheerful giver.jpg" alt="People planting a seedling">
+                </div>
+            </div>
+        </section>  
+
+
+        <section id="contact" class="contact-section">
+            <div class="contact-overlay"></div>
+            <div class="container contact-content">
+                <h2 class="contact-title">GET IN <span class="text-danger">TOUCH</span></h2>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" class="form-input" id="name">
+                        <p class="error-message" id="name-error"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-input" id="email">
+                            <p class="error-message" id="email-error"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Drop a message" rows="5" class="form-textarea" id="message"></textarea>
+                        <p class="error-message" id="message-error"></p>
+                    </div>
+                    <button type="submit" class="btn btn-light">CONTACT US</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <img src="./images/LandMark Logo.png" alt="LMCGM Logo" class="footer-logo">
+                <div>
+                    <h3 class="footer-heading">LANDMARK CHRIST GOSPEL MISSION, LAGOS</h3>
+                    <p class="footer-text">
+                        <strong>Worship Centre address:</strong><br>
+                        10, Musa Eromon Street, Igoke Estate, Abule-Egba, Lagos.<br>
+                        <strong>Email:</strong> LMCGM@gmail.com<br>
+                        <strong>Tel:</strong> + (234)8055359424
+                    </p>
+                    <p class="footer-subtext">Feel free to get in touch with us at any time either by phone or e-mail.</p>
+                </div>
+            </div>
+            <div class="footer-placeholder"></div>
+            <div class="footer-links">
+                <h3 class="footer-heading">MINISTRIES</h3>
+                <ul class="ministry-list">
+                    <!-- <li><a href="#">Bible Studies</a></li> -->
+                    <!-- <li><a href="#">Outreach</a></li> -->
+                    <li><a href="#">Men's</a></li>
+                    <li><a href="#">Women's</a></li>
+                    <li><a href="#">Young Adults</a></li>
+                    <li><a href="#">Youth</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#giving">Compassion Offering</a></li>
+                    <!-- <li><a href="#">Mission Trips</a></li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; LANDMARK CHRIST GOSPEL MISSION All Rights Reserved 2025</p>
+        </div>
+    </footer>
+
+        <!-- Giving Modal -->
+    <div id="giving-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button id="close-modal-btn" class="modal-close" aria-label="Close modal">&times;</button>
+            <img src="./images/giving.jpg" alt="Church Account Details: Tithes/Offering/Seeds, Account 1023064992 for Landmark Christ Gospel Mission at United Bank for Africa.">
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script type="module" src="./script.js"></script>
+<!-- <script type="module" src="/index.tsx"></script> -->
+</body>
+</html>
