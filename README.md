@@ -1,4 +1,4 @@
-# RCCG Strong Tower - Church Website
+# LANDMARK CHRIST GOSPEL MISSION - Church Website
 
 This is a modern, responsive, and aesthetically pleasing web application for the RCCG Strong Tower church, built using React, TypeScript, and Tailwind CSS. The application provides a comprehensive online presence for the church, offering information about services, events, ministries, and ways to connect.
 
@@ -35,7 +35,7 @@ This project is a static website and does not require any build steps or complex
 1.  **Clone or Download the Files:**
     Get a local copy of the project files. You can either clone the repository:
     ```sh
-    git clone https://github.com/your-username/rccg-strong-tower.git
+    git clone [https://github.com/Bezaleel-Creative/LandMarkChurch.git]
     ```
     Or download the files as a ZIP archive and extract them.
 
